@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/big_image_height"
+              android:background="@color/normal_blue"
+              android:orientation="vertical"
+              android:padding="@dimen/spacing_largest"
+    >
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/button_height_tall"
+        android:layout_height="@dimen/button_height_tall"
+        android:layout_marginBottom="@dimen/spacing_larger"
+        android:src="@drawable/ic_logo"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/id_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sunlei"
+        android:textSize="@dimen/font_large"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/id_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="企业信息管理员"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
